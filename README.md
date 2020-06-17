@@ -1,24 +1,8 @@
-# README
+# READIt
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](screenshots/home.png)
 
-Things you may want to cover:
+![](screenshots/welcome.png)
 
-* Ruby version
+![](screenshots/books.png)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

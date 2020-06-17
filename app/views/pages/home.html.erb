@@ -1,9 +1,29 @@
-<h1>Pages#home</h1>
+<h1>Home page</h1>
+<h2>
 <p>This is my home page!</p>
+<h2>
 <p>
-<%= get_season() %>
 
-<%= get_random_number(100) %>
+<h3>
+<%= get_season() %>
+<h3>
+<br>
+
+<h3>
 <%= get_random_welcome() %>
-<%= count_to_10 %>
+</h3>
+<br>
+
+<h4>
+<%= "Random numbers and count to that number" %>
+<%= get_random_number(100) %>
+</h3>
+<br>
+
+<h4>
+<%= "Watch me count to #{@random_value}!" %>
+</h4>
+<%= count_to_random(@random_value) %>
+<br>
+
 </p>
