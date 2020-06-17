@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Readit</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+      <div id="wrapper">
+          
+      <header>
+          <%= link_to image_tag("logo.png", alt: "logo"),
+          {:controller => 'pages', :action => 'home'},
+          {:class => 'websiteLogo'}
+          %>
+
+      <%= link_to "READIT", {:controller => "pages", :action => "home"},
+        {:class => "websiteTitle"}
+      %>
+      </header>
+
+      <nav id="horzNav">
+          <p>
+          <%= link_to 'Home', {:controller => 'pages', :action => 'home'} %>
+          <%= link_to 'About', {:controller => 'pages', :action => 'about'} %>
+          <%= link_to 'Books', {:controller => 'books', :action => 'index'} %>
+          <%= link_to 'Welcome', {:controller => 'welcome', :action => 'index'} %>
+          <%= link_to 'sample', {:controller => 'welcome', :action => 'sample'} %>
+          </p>
+      </nav>
+
+      <main id="content">
+        <%= yield %>
+      </main>
+      </div>
+  </body>
+</html>
