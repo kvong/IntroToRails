@@ -1,0 +1,20 @@
+<p>Comments</p>
+
+<% @article.comments.each do |comment| %>
+
+
+    <p>
+    <strong> [<%= comment.commenter %>] </strong>
+        <%= comment.created_at %>
+        <%= comment.body %>
+    </p>
+
+    <p>
+        <%= link_to 'Delete Comment', [comment.article, comment],
+            method: :delete, data: 
+            { confirm: 'You are deleting ' + 
+              comment.commenter + 
+              '. Are you sure?' }%>
+    </p>
+
+<% end %>

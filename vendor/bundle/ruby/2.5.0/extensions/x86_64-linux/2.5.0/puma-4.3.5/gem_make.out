@@ -1,7 +1,5 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-7989-h9ydfp.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-x41zkv.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -10,10 +8,10 @@ checking for TLS_server_method() in openssl/ssl.h... yes
 checking for SSL_CTX_set_min_proto_version in openssl/ssl.h... yes
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
 make "DESTDIR="
 compiling http11_parser.c
 compiling io_buffer.c
@@ -25,6 +23,6 @@ puma_http11.c:203:22: warning: implicit declaration of function ‘isspace’ [-
                       ^~~~~~~
 linking shared-object puma/puma_http11.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/puma-4.3.5/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20200612-7989-19omd04/puma
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20200617-2503-ah8m74/puma

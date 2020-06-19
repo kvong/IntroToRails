@@ -1,0 +1,35 @@
+<%# 
+- Use 'form_with' to generate a form.
+- 'scope:' tells 'form_with' what this for is for.
+- 'url: articles_path' set the submit button to make a POST request (default).
+%>
+
+<%= form_with model: @article, local: true do |form| %>
+    <% if @article.errors.any? %>
+        <div>
+            <h2>
+            <%= pluralize(@article.errors.count, "error") %> prohibited this article from being saved:
+            </h2>
+            <ul>
+                <% @article.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <p>
+        <%= form.label :title %><br>
+        <%= form.text_field :title %><br>
+    </p>
+
+    <p>
+        <%= form.label :text %><br>
+        <%= form.text_area :text, :id => "message_area", :cols => 50, :rows => 20 %><br>
+    </p>
+
+    <p>
+    <%= form.submit "Update Article", :class => "button" %>
+    </p>
+<% end %>
+

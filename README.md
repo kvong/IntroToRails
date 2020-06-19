@@ -72,7 +72,6 @@ $ rails server
 
 ![](screenshots/home.png)
 
-![](screenshots/welcome.png)
+![](screenshots/article.png)
 
-![](screenshots/books.png)
 

@@ -1,7 +1,5 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-28039-l6rxia.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-u1li76.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for sys/select.h... yes
@@ -12,10 +10,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -45,6 +43,6 @@ selector.c:484:5: warning: ignoring return value of ‘write’, declared with a
      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 linking shared-object nio4r_ext.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20200612-28039-1dim5r0
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20200617-2503-l0kcfa

@@ -1,13 +1,11 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-7989-71ec9l.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-xdqahk.rb extconf.rb
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
 make "DESTDIR="
 compiling ./libsass/src/memory/allocator.cpp
 compiling ./libsass/src/ast.cpp
@@ -77,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20200612-7989-1hd3xk3/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20200617-2503-t67b0j/sassc

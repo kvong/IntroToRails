@@ -1,13 +1,11 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-28039-ekpysp.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-1i1tm21.rb extconf.rb
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
 make "DESTDIR="
 compiling breakpoint.c
 compiling byebug.c
@@ -16,6 +14,6 @@ compiling locker.c
 compiling threads.c
 linking shared-object byebug/byebug.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/byebug-11.1.3/ext/byebug
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 byebug.so ./.gem.20200612-28039-7q648/byebug
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20200617-2503-13pejdf/byebug

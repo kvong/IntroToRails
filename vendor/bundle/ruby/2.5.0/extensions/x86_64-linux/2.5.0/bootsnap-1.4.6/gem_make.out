@@ -1,13 +1,11 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-28039-1bve78e.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-tlw02d.rb extconf.rb
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
 make "DESTDIR="
 compiling bootsnap.c
 bootsnap.c: In function ‘bs_cache_path’:
@@ -17,6 +15,6 @@ bootsnap.c:272:39: warning: format ‘%llx’ expects argument of type ‘long l
                                  %014lx
 linking shared-object bootsnap/bootsnap.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.6/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200612-28039-1h1srj8/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200617-2503-1vq60wb/bootsnap

@@ -1,7 +1,5 @@
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
-/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200612-28039-lx29fl.rb extconf.rb
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
-/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb:10: warning: constant Gem::ConfigMap is deprecated
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
+/usr/bin/ruby2.5 -I /usr/local/lib/site_ruby/2.5.0 -r ./siteconf20200617-2503-zg4j5g.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -13,10 +11,10 @@ checking for rb_hash_dup() in ruby.h... yes
 checking for rb_hash_clear() in ruby.h... yes
 creating Makefile
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
 make "DESTDIR=" clean
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
 make "DESTDIR="
 compiling buffer.c
 compiling buffer_class.c
@@ -44,6 +42,6 @@ unpacker_class.c:216:14: warning: ‘Unpacker_peek_next_type’ defined but not 
 compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.so
 
-current directory: /home/blank/Documents/Ruby/DerekBanas-Rails/readit/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
+current directory: /home/blank/Documents/Ruby/Rails/blog/vendor/bundle/ruby/2.5.0/gems/msgpack-1.3.3/ext/msgpack
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.so ./.gem.20200612-28039-8wg915/msgpack
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20200617-2503-ibmpeo/msgpack
